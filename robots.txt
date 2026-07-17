@@ -1,0 +1,11 @@
+# robots.txt for Velora Dental and Aesthetic Clinic
+# Replace https://www.veloraclinic.com with your real production domain before deploying.
+
+User-agent: *
+Allow: /
+
+# Nothing on this small marketing site needs blocking (no admin/cart/search/filter
+# params exist yet). If you add a CMS, cart, or internal search later, disallow
+# those paths here instead of leaving this wide open.
+
+Sitemap: https://www.veloraclinic.com/sitemap.xml
